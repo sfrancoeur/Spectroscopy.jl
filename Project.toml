@@ -1,0 +1,13 @@
+name = "Spectroscopy"
+uuid = "05571285-4c58-420f-899c-90991c5efd18"
+authors = ["Sebastien Francoeur"]
+version = "0.0.1-DEV"
+
+[compat]
+julia = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
